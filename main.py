@@ -1,12 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# This p
 #Import libraries
-
-
-
 from flask import Flask
 from flask import request
 from flask import render_template
@@ -15,6 +7,7 @@ from os import path
 import speech_recognition as sr
 import time
 import socket
+
 #Declare variables
 global messageList
 messageList = [] #Declare variable for message list on webpage
