@@ -1,6 +1,6 @@
 # SpeechControlledRobot
 Created for MakeSPP 2020!
-This Repo is for the version of my software which can run without any hardware, like a Raspberry Pi or motors. It simply removes motor functionality and replaces it with a message to the user saying an imaginary robot has moved.
+This Repo is for the version of my software which must run with certain hardware. 
 
 PREQUISITES:
 
@@ -32,3 +32,5 @@ Simply click the record button, allow access to your microphone, and say "go for
 CREDITS:
 
 https://github.com/addpipe/simple-recorderjs-demo for the recording part of the webserver.
+https://www.raspberrypi-spy.co.uk/2012/07/stepper-motor-control-in-python/ for some of the stepper motor code.
+https://github.com/mattdiamond/Recorderjs for Recorder.js library.
