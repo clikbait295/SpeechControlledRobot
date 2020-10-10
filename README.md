@@ -1,4 +1,4 @@
-# SpeechControlledRobot
+# Speech Controlled Imaginary Robot
 Created for MakeSPP 2020!
 This Repo is for the version of my software which can run without any hardware, like a Raspberry Pi or motors. It simply removes motor functionality and replaces it with a message to the user saying an imaginary robot has moved.
 
