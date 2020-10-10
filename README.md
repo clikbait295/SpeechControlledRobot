@@ -15,7 +15,7 @@ HOW TO RUN:
 Now that you have all of the prequisites/dependencies installed, you should be able to run this program without any issues. Just run "main.py" and go to the IP address in the first line outputed from the script (you should probably use the IDLE for this). Remember to copy the "https://", otherwise you will get an error. READ THE NEXT SECTION BEFORE OPENING THE PAGE!
 
 IMPORTANT: 
-WHEN YOU FIRST CONNECT TO THE WEBSERVER, YOU WILL GET A "Your connection is not private" MESSAGE FROM THE BROWSER. PLEASE DISREGARD THIS MESSAGE, IT IS APPEARING BECAUSE I AM USING AN UNVERIFIED CERTIFICATE TO GET HTTPS ON MY SERVER, WHICH ALLOWS ME TO ACCESS THE USER'S MICROPHONE. YOU ARE NOT GETTING HACKED!
+WHEN YOU FIRST CONNECT TO THE WEBSERVER, YOU WILL GET A "Your connection is not private" MESSAGE FROM THE BROWSER. PLEASE DISREGARD THIS MESSAGE, IT IS APPEARING BECAUSE I AM USING AN UNVERIFIED CERTIFICATE TO GET HTTPS ON MY SERVER, WHICH ALLOWS ME TO ACCESS THE USER'S MICROPHONE. To continue to the website, click on "Advanced" and then click "Continue". YOU ARE NOT GETTING HACKED!
 
 HOW TO USE:
 Simply click the record button, allow access to your microphone, and say "go forward 10 seconds". Then click the stop button. After a few seconds, you will get a message on the website which says an imaginary robot has moved forward for ten seconds. Here is the command syntax:
