@@ -8,6 +8,7 @@ Before you run this code, you must make sure you have the following libraries/de
 - SpeechRecognition
 - Google-api-python-client
 - Cryptography
+
 To install these all on Python3, run the following command in your command prompt/terminal:
 pip3 install SpeechRecognition Flask google-api-python-client cryptography
 
