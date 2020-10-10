@@ -31,6 +31,6 @@ Simply click the record button, allow access to your microphone, and say "go for
 
 CREDITS:
 
-https://github.com/addpipe/simple-recorderjs-demo for the recording part of the webserver.
-https://www.raspberrypi-spy.co.uk/2012/07/stepper-motor-control-in-python/ for some of the stepper motor code.
-https://github.com/mattdiamond/Recorderjs for Recorder.js library.
+- https://github.com/addpipe/simple-recorderjs-demo for the recording part of the webserver.
+- https://www.raspberrypi-spy.co.uk/2012/07/stepper-motor-control-in-python/ for some of the stepper motor code.
+- https://github.com/mattdiamond/Recorderjs for Recorder.js library.
