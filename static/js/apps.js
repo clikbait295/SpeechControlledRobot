@@ -1,3 +1,4 @@
+//THIS CODE IS FROM THE DEMO HERE: https://github.com/addpipe/simple-recorderjs-demo
 //webkitURL is deprecated but nevertheless
 URL = window.URL || window.webkitURL;
 
@@ -102,9 +103,6 @@ function createDownloadLink(blob) {
     //name of .wav file to use during upload and download (without extendion)
     var filename = new Date().toISOString();
     //upload link
-    
-    
-   
     var xhr=new XMLHttpRequest();
     xhr.onload=function(e) {
       if(this.readyState === 4) {
