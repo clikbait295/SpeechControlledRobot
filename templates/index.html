@@ -4,29 +4,31 @@
     <style>
         body {background-color: midnightblue;}
         h1   {font-family:verdana ; color: white;}
+	h3 {font-family:verdana ; color: white;}
         p    {font-family:verdana ; color: darkorange;}
         div {font-family:verdana ; color: white;}
         ul {font-family:verdana ; color: white;}
     </style>
     <meta charset="UTF-8">
-    <title>Speech Controlled Robot - No RPI needed!</title>
+    <title>Speech Controlled Robot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <h1>Speech Controlled Robot Control Panel</h1>
     <h3>Made by Arnav Ambre</h3>
+
     <div id="controls">
      <button id="recordButton">Record</button>
      
-     <button id="stopButton" disabled>Stop & Upload</button>
+     <button id="stopButton" disabled>Stop</button>
     </div>
     <div id="formats">Format: start recording to see sample rate</div>
-    <p>This is the latest output: <span id="latest"></span></p>
-    <p>This is all the output:</p>
+    <p>This is the latest message: <span id="latest"></span></p>
+    <p>These are all the messages:</p>
     <ul id="output"></ul>
     
     
-    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+    
     <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
     <script src="/static/js/apps.js"></script>
   </body>
