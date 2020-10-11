@@ -63,7 +63,7 @@ def index():
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
             audioRecog = "Audio could not be understood."
-            mesageList.append(audioRecog)
+            messageList.append(audioRecog)
         except sr.RequestError as e:
             print("Could not request results from Google Speech Recognition service; {0}".format(e))
             audioRecog = "Error!"
